@@ -8,7 +8,7 @@ resource "aws_ecs_task_definition" "TD" {
   container_definitions = jsonencode([
     {
       name  = "node-app"
-      image = "booraraman/node-app:79212a4fe2221711f944a83a63e4b7092477c04f"
+      image = "booraraman/node-app:83f161c76aa47d1ae4435aa7d30a17a13c2c2a89"
       essential = true
       portMappings = [
         {
